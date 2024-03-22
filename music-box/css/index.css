@@ -216,7 +216,7 @@ header {
 }
 
 .page-description {
-  background-image: url(./images/banner.png);
+  background-image: url(../images/banner.png);
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -431,17 +431,17 @@ header {
 }
 
 .bg-free {
-  background-image: url(/images/subscribe_1.png);
+  background-image: url(../images/subscribe_1.png);
   background-size: cover;
 }
 
 .bg-standart {
-  background-image: url(/images/subscribe_2.png);
+  background-image: url(../images/subscribe_2.png);
   background-size: cover;
 }
 
 .bg-premium {
-  background-image: url(/images/subscribe_3.png);
+  background-image: url(../images/subscribe_3.png);
   background-size: cover;
 }
 
@@ -738,7 +738,7 @@ footer hr {
 
 .page-description-artist {
   padding: 200px 0;
-  background-image: url(/images/MortenHarket.png);
+  background-image: url(../images/MortenHarket.png);
   background-size: cover;
 }
 
