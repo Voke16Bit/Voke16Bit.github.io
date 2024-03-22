@@ -1,0 +1,32 @@
+.exposition {
+  background-color: $brown;
+  position: relative;
+  z-index: 2;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 35%))
+}
+
+.container-exposition {
+  padding: 50px 10px;
+}
+.exposition-text-wrapper {
+  margin-bottom: 40px;
+}
+.exposition-text {
+  color: white;
+  text-align: left;
+}
+.btn {
+  font-family: Open Sans;
+  background-color: $orange;
+  padding: 12px 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  transition: 0.2s;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}

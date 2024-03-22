@@ -1,0 +1,67 @@
+.cognitive-biases {
+  background-color:$light;
+  overflow: hidden;
+  &::before {
+    content: " ";
+    position: absolute;
+    background-image: url(/img/background.png);
+    height: 100%;
+    width: 100%;
+    opacity: 0.1;
+  }
+}
+.cognitive-biases-main-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 50px;
+
+  @media (max-width:996px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+.cognitive-biases-main-img {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 35%));
+  position: relative;
+  z-index: 2; 
+  & img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.cognitive-biases-main-text {
+  text-align: left;
+  & h4 {
+    color: rgb(144, 141, 139);
+  }
+
+  & h2 {
+    margin-bottom: 30px;
+  }
+}
+.cognitive-biases-horizontal-line {
+  background-color: $brown;
+  text-align: left;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+  & p {
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+  }
+}
+.cognitive-biases-exposition {
+  display: flex;
+  text-align: left;
+  gap: 30px;
+
+  & p {
+    width: 540px;
+  }
+}
+
+

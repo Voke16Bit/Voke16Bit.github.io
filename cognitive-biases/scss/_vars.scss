@@ -1,0 +1,107 @@
+$white:rgb(255, 255, 255);
+$light:rgb(245, 244, 240);
+$semiwhite:rgb(215, 204, 192);
+$grey:rgb(144, 141, 139);
+$darkgrey: rgb(66, 65, 60);
+$semiblack:rgb(42, 38, 38);
+$black:rgb(42, 38, 38);
+$brown:rgb(176, 154, 129);
+$orange:rgb(254, 138, 2);
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: Neucha;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  font-family: Neucha;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: 0%;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  font-family: Neucha;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+
+h4 {
+  color: rgb(0, 0, 0);
+  font-family: Neucha;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+
+.container {
+  max-width: 1110px;
+  text-align: center;
+  padding: 100px 0;
+  margin: 0 auto;
+  
+  @media (max-width:1200px) {
+    max-width: 1000px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin: 0 auto;
+  }
+
+  @media (max-width:992px) {
+    max-width: 800px;
+    text-align: center;
+    padding: 50px 10px;
+    margin: 0 auto;
+  }
+
+  @media (max-width:768) {
+    max-width: 600px;
+    text-align: center;
+    padding: 30px 10px;
+    margin: 0 auto;
+  }
+}
+
+.orange {
+  color: $orange;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+

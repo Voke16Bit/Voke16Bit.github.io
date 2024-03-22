@@ -1,0 +1,84 @@
+.footer-main {
+  background-color: $darkgrey;
+  display: flex;
+  flex-direction: row;
+  padding: 55px 55px;
+  text-align: center;
+  gap: 122px;
+  margin-bottom: 75px;
+  
+  @media (max-width:1000px) {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+.footer-text {
+  text-align: left;
+
+  & h3 {
+    color: white;
+  }
+}
+.footer-form {
+
+  & p {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  & .small {
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+}
+.footer-input {
+  display: flex;
+  flex-direction: row;
+
+  & input {
+    height: 50px;
+    width: 420px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+  }
+}
+.btn-send {
+  background-color: $orange;
+  height: 57px;
+  width: 70px;
+  position: relative;
+  transition: 0.2s;
+
+  &::before {
+    content:' ';
+    background: url("/img/send.svg") center no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  &:hover {
+    background-color: rgb(234, 118, 0);
+  }
+
+}
+
+.footer-footer {
+  & p {
+    margin-bottom: 16px;
+  }
+
+  & a {
+    text-decoration: none;
+    font-family: Open Sans;
+    color: blue;
+  }
+}

@@ -1,0 +1,29 @@
+.video {
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.video-title {
+  margin-bottom: 30px;
+}
+.video-subtitle {
+  margin-bottom: 30px;
+}
+.video-video {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 35%));
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%
+}
+
+.iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
