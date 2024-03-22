@@ -216,7 +216,7 @@ header {
 }
 
 .page-description {
-  background-image: url(/images/banner.png);
+  background-image: url(./images/banner.png);
   padding-top: 200px;
   padding-bottom: 200px;
 }
