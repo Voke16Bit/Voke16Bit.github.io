@@ -35,6 +35,15 @@ header {
   & .wrapper {
     margin-left: 100px;
 
+    @media (max-width:1200px) {
+      margin-left: 50px;
+    }
+
+    @media (max-width:700px) {
+      margin-left: 20px;
+      padding-top: 20px;
+    }
+
     & h1 {
       font-size: 100px;
     }
@@ -55,6 +64,10 @@ header {
     color: black;
     text-decoration: none;
   }
+
+  @media (max-width:700px) {
+    font-size: 24px;
+  }
 }
 
 .works {
@@ -63,14 +76,39 @@ header {
   background-color: black;
   color: white;
   padding: 10px 100px;
+
+  @media (max-width:1200px) {
+    padding-left: 50px;
+  }
+  @media (max-width:700px) {
+    padding-left: 20px;
+  }
 }
 
 .work-wrapper {
   margin-top: 10px;
   padding-left: 100px;
 
+  @media (max-width:1200px) {
+    padding-left: 50px;
+  }
+
+  @media (max-width:700px) {
+    padding-left: 20px;
+  }
+
   & ul {
     margin-left: 20px;
     margin-top: 10px;
   }
+
+  & h3 {
+    @media (max-width:700px) {
+      font-size: 24px;
+    }
+  }
+}
+
+hr {
+  border: 1px solid;
 }
